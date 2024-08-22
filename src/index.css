@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.siteContainer {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 1.8rem;
+    align-items: center;
+}
+
+.logo {
+    height: auto;
+    width: 40%;
+}
+
+#desktopNav {
+    display: none;
+}
+
+
+@media (min-width: 768px) {
+    .logo {
+        width: 65%;
+    }
+
+    #mobileNavButton {
+        display: none;
+    }
+
+    #mobileNav {
+        display: none;
+    }
+
+    #desktopNav {
+        display: contents;
+    }
+}
