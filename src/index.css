@@ -51,11 +51,28 @@
     margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 14px)
 }
 
-@media (min-width: 1440px) {
-    .sliderCustomHeight {
-        height: 944px;
-    }
+/* .outerSliderText1 {
+    position: absolute;
+    left: 53.2059px;
+    top: 93px;
+    z-index: 5;
+    visibility: visible;
+
 }
+.innerSliderText1 {
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    line-height: 82px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-size: 71px;
+    transform-origin: 50% 50%;
+    opacity: 1;
+    transform: translate(0px, 0px);
+    visibility: visible;
+}
+
+ */
 
 
 
