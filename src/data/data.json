@@ -1,0 +1,36 @@
+{
+    "resources": [
+      {
+        "title": "Hazy IPA",
+        "imageUrl": "public/33_carousel_beer.png"
+      },
+      {
+        "title": "Pilsner",
+        "imageUrl": "public/33_carousel_beer.png"
+      },
+      {
+        "title": "West Coast IPA",
+        "imageUrl": "public/33_carousel_beer.png"
+      },
+      {
+        "title": "Chocolate Stout",
+        "imageUrl": "public/33_carousel_beer.png"
+      },
+      {
+        "title": "Lemonade Shandy",
+        "imageUrl": "public/33_carousel_beer.png"
+      },
+      {
+        "title": "Lager",
+        "imageUrl": "public/33_carousel_beer.png"
+      },
+      {
+        "title": "Seasonal Ale",
+        "imageUrl": "public/33_carousel_beer.png"
+      },
+      {
+        "title": "New England IPA",
+        "imageUrl": "public/33_carousel_beer.png"
+      }
+    ]
+  }

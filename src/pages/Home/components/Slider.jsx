@@ -5,7 +5,7 @@ import 'swiper/css/pagination';
 import { Autoplay, Pagination } from 'swiper/modules';
 import gsap from 'gsap';
 
-export default function App() {
+export default function Slider() {
   const textRefs = useRef([]);
   const buttonRefs = useRef([]);
 
