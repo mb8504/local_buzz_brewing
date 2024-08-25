@@ -51,4 +51,7 @@
     display: block;
 }
 
-
+/* NEWSLETTER */
+.inputColor::placeholder {
+    color: white;
+  }
