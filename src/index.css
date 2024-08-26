@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .siteContainer {
-    max-width: 1240px;
+    max-width: 1575px;
     margin: 0 auto;
     padding: 0 1.8rem;
     align-items: center;
@@ -55,3 +55,8 @@
 .inputColor::placeholder {
     color: white;
   }
+
+/* FOOTER */
+.border-opacity-footer {
+    border-color: rgba(165, 165, 165, 0.163); /* Adjust color and opacity */
+}

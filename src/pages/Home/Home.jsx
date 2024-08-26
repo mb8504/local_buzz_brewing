@@ -3,6 +3,7 @@ import Slider from './components/Slider'
 import BeerCarousel from './components/BeerCarousel'
 import Cards from './components/Cards'
 import Newsletter from '../../components/Newsletter'
+import Footer from '../../components/Footer'
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <BeerCarousel/>
       <Cards/>
       <Newsletter/>
+      <Footer/>
     </>
   )
 }

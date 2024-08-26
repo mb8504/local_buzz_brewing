@@ -11,6 +11,8 @@ export default {
       },
       colors: {
         'navBlack': '#121212',
+        'footerGray': '#aaaaaa',
+        'newsletterOrange': '#cc5b44',
       }
     },
   },

@@ -22,8 +22,8 @@ const Navbar = () => {
                     <li className='border-2 border-transparent hover:border-solid hover:border-white p-2 rounded'><a href="">Home</a></li>
                     <li className='ml-4 border-2 border-transparent hover:border-solid hover:border-white p-2 rounded'><a href="">Beers</a></li>
                     <li className='ml-4 border-2 border-transparent hover:border-solid hover:border-white p-2 rounded'><a href="">Locals Only</a></li>
-                    <li className='ml-4 border-2 border-transparent hover:border-solid hover:border-white p-2 rounded'><a href="">Events</a></li>
-                    <li className='ml-4 border-2 border-transparent hover:border-solid hover:border-white p-2 rounded'><a href="">About Us</a></li>
+                    {/* <li className='ml-4 border-2 border-transparent hover:border-solid hover:border-white p-2 rounded'><a href="">Events</a></li>
+                    <li className='ml-4 border-2 border-transparent hover:border-solid hover:border-white p-2 rounded'><a href="">About Us</a></li> */}
                     <li className='ml-4 border-2 border-transparent hover:border-solid hover:border-white p-2 rounded'><a href="">Contact</a></li>
                 </ul>
             </div>
@@ -39,8 +39,8 @@ const Navbar = () => {
                 <li className='pl-4 pt-8'><a href="">Home</a></li>
                 <li className='pl-4 pt-8 border-b-2'><a href="">Beers</a></li>
                 <li className='pl-4 pt-8 border-b-2'><a href="">Locals Only</a></li>
-                <li className='pl-4 pt-8 border-b-2'><a href="">Events</a></li>
-                <li className='pl-4 pt-8 border-b-2'><a href="">About Us</a></li>
+                {/* <li className='pl-4 pt-8 border-b-2'><a href="">Events</a></li>
+                <li className='pl-4 pt-8 border-b-2'><a href="">About Us</a></li> */}
                 <li className='pl-4 pt-5'><a href="">Contact</a></li>
             </ul>
         </div> 
