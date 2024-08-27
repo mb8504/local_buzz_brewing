@@ -15,12 +15,12 @@ const Navbar = () => {
     <nav className='bg-navBlack pt-5 pb-5 md:text-2xl sm:text-xl'>
         <div className='siteContainer flex flex-row justify-between'>
             <div>
-                <img className='logo' src="/logo.png" alt="" />
+                <a href="/"><img className='logo' src="/logo.png" alt="" /></a>
             </div>
             <div id='desktopNav'>
                 <ul className='text-white flex flex-row'>
-                    <li className='border-2 border-transparent hover:border-solid hover:border-white p-2 rounded'><a href="">Home</a></li>
-                    <li className='ml-4 border-2 border-transparent hover:border-solid hover:border-white p-2 rounded'><a href="">Beers</a></li>
+                    <li className='border-2 border-transparent hover:border-solid hover:border-white p-2 rounded'><a href="/">Home</a></li>
+                    <li className='ml-4 border-2 border-transparent hover:border-solid hover:border-white p-2 rounded'><a href="/beers">Beers</a></li>
                     <li className='ml-4 border-2 border-transparent hover:border-solid hover:border-white p-2 rounded'><a href="">Locals Only</a></li>
                     {/* <li className='ml-4 border-2 border-transparent hover:border-solid hover:border-white p-2 rounded'><a href="">Events</a></li>
                     <li className='ml-4 border-2 border-transparent hover:border-solid hover:border-white p-2 rounded'><a href="">About Us</a></li> */}

@@ -1,13 +1,9 @@
-import Home from './pages/Home/Home'
-import Navbar from './components/Navbar'
+import Routes from '../src/routes/Routes.jsx'
 
 function App() {
 
   return (
-    <>
-     <Navbar />
-     <Home />
-    </>
+     <Routes />
   )
 }
 

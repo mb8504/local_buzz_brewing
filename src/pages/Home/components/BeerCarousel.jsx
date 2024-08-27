@@ -42,7 +42,7 @@ export default function BeerCarousel() {
         </SwiperSlide>
       </Swiper>
       <div className='flex justify-center mt-40'>
-        <button className='bg-slate-100 text-[#145769] p-4 text-xl rounded-3xl hover:bg-[#145769] hover:text-white'>SEE OUR BEERS</button>
+        <a href="/beers"><button className='bg-slate-100 text-[#145769] p-4 text-xl rounded-3xl hover:bg-[#145769] hover:text-white'>SEE OUR BEERS</button></a>
       </div>
     </section>
   );

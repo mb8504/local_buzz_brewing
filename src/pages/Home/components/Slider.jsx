@@ -49,19 +49,19 @@ export default function Slider() {
             <div className="absolute inset-0 flex items-center justify-start pl-14">
               <div>
                 <h1
-                  className="text text-white text-md md:text-7xl font-bold"
+                  className="text text-white text-md md:text-7xl font-bold mb-4 md:mb-8 lg:mb-12"
                   ref={(el) => textRefs.current[0] = el}
                 >
                   50% Off <br />
                   Select Pints <br />
                   Every Wednesday <br />
                 </h1>
-                <button
-                  className="slideOneButton bg-[#145769] hover:bg-black hover:bg-opacity-35 text-white p-2 lg:p-6 tracking-wider text-sm md:text-lg lg:text-2xl mt-1 md:mt-2 lg:mt-12 font-bold"
+                <a href='/beers'
+                  className="slideOneButton bg-[#145769] hover:bg-black hover:bg-opacity-35 text-white p-2 lg:p-6 tracking-wider text-sm md:text-lg lg:text-2xl font-bold"
                   ref={(el) => buttonRefs.current[0] = el}
                 >
-                  <a href="">View Our Beers</a>
-                </button>
+                  View Our Beers
+                </a>
               </div>
             </div>
           </div>
@@ -70,7 +70,7 @@ export default function Slider() {
         <SwiperSlide>
           <img className='h-auto w-full' src="/1600_944_hero2.png" alt="" />
           <div className='absolute inset-0 flex justify-center items-center'>
-            <button
+            <a
               className='slideTwoButton bg-[#145769] text-white p-5 md:p-12 md:pl-4 md:pr-4 font-bold tracking-wide text-xl md:text-5xl'
               ref={(el) => buttonRefs.current[1] = el}
             >
@@ -80,7 +80,7 @@ export default function Slider() {
               >
                 Join Locals Only Beer Club
               </a>
-            </button>
+            </a>
           </div>
         </SwiperSlide>
 
@@ -90,19 +90,19 @@ export default function Slider() {
             <div className="absolute inset-0 flex items-center justify-start pl-14">
               <div>
                 <h1
-                  className="text text-white sm:text-l md:text-7xl font-bold"
+                  className="text text-white sm:text-l md:text-7xl font-bold mb-4 md:mb-8 lg:mb-12"
                   ref={(el) => textRefs.current[2] = el}
                 >
                   Beer news <br />
                   emailed <br />
                   every Friday!<br />
                 </h1>
-                <button
-                  className="slideOneButton bg-[#145769] hover:bg-black hover:bg-opacity-35 text-white p-2 lg:p-6 tracking-wider text-sm md:text-lg lg:text-2xl mt-1 md:mt-2 lg:mt-12 font-bold"
+                <a
+                  className="slideOneButton bg-[#145769] hover:bg-black hover:bg-opacity-35 text-white p-2 lg:p-6 tracking-wider text-sm md:text-lg lg:text-2xl font-bold"
                   ref={(el) => buttonRefs.current[2] = el}
                 >
                   <a href="">Add me to the list!</a>
-                </button>
+                </a>
               </div>
             </div>
           </div>
