@@ -13,6 +13,7 @@ export default {
         'navBlack': '#121212',
         'footerGray': '#aaaaaa',
         'newsletterOrange': '#cc5b44',
+        'eventCardWhite': '#eeeeee',
       }
     },
   },

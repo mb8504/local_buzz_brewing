@@ -88,7 +88,7 @@ const Footer = () => {
                     </div>
                     <div className='w-full'>
                         <div className=' flex flex-col items-center justify-center md:justify-end mt-8 md:mt-0'>
-                            <img className='w-52' src="public/test_logo.png" alt="" />
+                            <img className='w-52' src="/footer_logo.png" alt="" />
                         </div>
                     </div>
                 </div>
