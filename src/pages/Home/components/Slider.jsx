@@ -76,7 +76,7 @@ export default function Slider() {
             >
               <a
                 className='border-2 border-white px-5 md:px-10 p-2 md:p-6'
-                href=""
+                href="/locals-only"
               >
                 Join Locals Only Beer Club
               </a>
