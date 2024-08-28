@@ -8,7 +8,7 @@ const LocalsOnly = () => {
     <>
         <Navbar/>
         <section>
-            <img src="public/locals.png" alt="" />
+            <img src="/locals.png" alt="" />
             <div className='bg-[#0f739a] text-white text-center pt-8 pb-8 text-3xl md:text-5xl'>
                 <h1>The beer tastes even better when you're a local!</h1>
             </div>
@@ -26,7 +26,7 @@ const LocalsOnly = () => {
                         {/* <p className='md:mr-20 mt-8 text-xl text-[#0f739a] font-bold'>When you're a local, your family!</p> */}
                     </div>
                     <div className='md:w-auto'>
-                        <img className='w-full h-auto md:max-w-xs lg:max-w-sm' src="public/cheers2.png" alt="Cheers" />
+                        <img className='w-full h-auto md:max-w-xs lg:max-w-sm' src="/cheers2.png" alt="Cheers" />
                     </div>
                 </div>
             </div>

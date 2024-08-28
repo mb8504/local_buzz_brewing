@@ -36,8 +36,8 @@ const Navbar = () => {
 
         <div id='mobileNav' className={`${nav ? 'max-h-screen' : 'max-h-0'} overflow-hidden transform transition-all duration-700 ease-in-out`}>
             <ul className='text-white flex flex-col text-left transition-all divide-y divide-slate-700'>
-                <li className='pl-4 pt-8'><a href="">Home</a></li>
-                <li className='pl-4 pt-8 border-b-2'><a href="">Beers</a></li>
+                <li className='pl-4 pt-8'><a href="/">Home</a></li>
+                <li className='pl-4 pt-8 border-b-2'><a href="/beers">Beers</a></li>
                 <li className='pl-4 pt-8 border-b-2'><a href="/locals-only">Locals Only</a></li>
                 {/* <li className='pl-4 pt-8 border-b-2'><a href="">Events</a></li>
                 <li className='pl-4 pt-8 border-b-2'><a href="">About Us</a></li> */}
