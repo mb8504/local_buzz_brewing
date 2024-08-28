@@ -1,8 +1,11 @@
 import React from 'react'
+import BeerCards from './components/BeerCards'
 
 const Beers = () => {
   return (
-    <div>Beers</div>
+    <>
+      <BeerCards/>
+    </>
   )
 }
 

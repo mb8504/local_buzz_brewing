@@ -21,7 +21,7 @@ const Navbar = () => {
                 <ul className='text-white flex flex-row'>
                     <li className='border-2 border-transparent hover:border-solid hover:border-white p-2 rounded'><a href="/">Home</a></li>
                     <li className='ml-4 border-2 border-transparent hover:border-solid hover:border-white p-2 rounded'><a href="/beers">Beers</a></li>
-                    <li className='ml-4 border-2 border-transparent hover:border-solid hover:border-white p-2 rounded'><a href="">Locals Only</a></li>
+                    <li className='ml-4 border-2 border-transparent hover:border-solid hover:border-white p-2 rounded'><a href="/locals-only">Locals Only</a></li>
                     {/* <li className='ml-4 border-2 border-transparent hover:border-solid hover:border-white p-2 rounded'><a href="">Events</a></li>
                     <li className='ml-4 border-2 border-transparent hover:border-solid hover:border-white p-2 rounded'><a href="">About Us</a></li> */}
                     <li className='ml-4 border-2 border-transparent hover:border-solid hover:border-white p-2 rounded'><a href="">Contact</a></li>
@@ -38,7 +38,7 @@ const Navbar = () => {
             <ul className='text-white flex flex-col text-left transition-all divide-y divide-slate-700'>
                 <li className='pl-4 pt-8'><a href="">Home</a></li>
                 <li className='pl-4 pt-8 border-b-2'><a href="">Beers</a></li>
-                <li className='pl-4 pt-8 border-b-2'><a href="">Locals Only</a></li>
+                <li className='pl-4 pt-8 border-b-2'><a href="/locals-only">Locals Only</a></li>
                 {/* <li className='pl-4 pt-8 border-b-2'><a href="">Events</a></li>
                 <li className='pl-4 pt-8 border-b-2'><a href="">About Us</a></li> */}
                 <li className='pl-4 pt-5'><a href="">Contact</a></li>
